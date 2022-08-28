@@ -1,0 +1,794 @@
+.navbar::before {
+    background: url('home-cover.webp') no-repeat top center/cover;
+    margin-top: -8px;
+    margin-left: -8px;
+    height: calc(100% + 200px);
+    width: 100%;
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+.navigation {
+    display: flex;
+    margin-top: -3px;
+}
+
+#logo {
+    display: inline-block;
+    border-radius: 100%;
+    margin: 1% 4%;
+    height: 80px;
+    cursor: pointer;
+}
+
+#nav {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row-reverse;
+    margin-left: 40%;
+    align-items: center;
+}
+
+#nav li a {
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Anek Bangla', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+#nav .item a {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+#nav .item a:hover {
+    color: rgb(160, 105, 2);
+}
+
+#nav .Sub a {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+    border: 1px solid black;
+}
+
+#nav .Sub a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.home p {
+    text-align: center;
+}
+
+
+.home .p1 {
+    font-size: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    letter-spacing: 5px;
+}
+
+.home .p12 {
+    margin-top: -40px;
+}
+
+.home .p2 {
+    font-size: 1.3rem;
+}
+
+.navbar::after {
+    position: absolute;
+    content: "";
+    background: url('home-2.webp') no-repeat bottom;
+    height: calc(100% + 1500px);
+    margin-top: -1200px;
+    width: 100%;
+    margin-left: -8px;
+    z-index: -1;
+}
+
+.home2 {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 800px;
+    margin-top: 500px;
+    left: 0;
+}
+
+.home2::before {
+    content: "";
+    position: absolute;
+    border-left: 3px solid rgb(206, 206, 206);
+    height: 450px;
+    left: 5%;
+    top: 30%;
+    border-radius: 20px;
+}
+
+.home2::after {
+    position: absolute;
+    content: "";
+    border-left: 6px solid white;
+    height: 150px;
+    left: 4.89%;
+    top: 34%;
+    border-radius: 20px;
+}
+
+
+.cars {
+    position: absolute;
+    width: 400px;
+    top: 30%;
+    left: 8%;
+    color: white;
+}
+
+.cars .title1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.4rem;
+}
+
+.cars .context1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 16%;
+    font-size: 1.4rem;
+}
+
+.service-container {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-menu {
+    margin-top: 100%;
+    font-family: 'Albert Sans', sans-serif;
+    width: 400px;
+    margin-left: 8%;
+    height: 300px;
+}
+
+.service-menu .service-title {
+    text-transform: uppercase;
+    margin-top: 16%;
+    color: rgb(48, 47, 47);
+}
+
+.service-menu::before {
+    position: absolute;
+    content: "";
+    height: 150px;
+    border: 2px solid rgb(168, 165, 165);
+    left: 4.89%;
+    margin-top: 0;
+    border-radius: 20px;
+}
+
+.service-menu::after {
+    position: absolute;
+    content: "";
+    height: 134px;
+    border: 2px solid black;
+    left: 4.89%;
+    margin-top: -11.4%;
+    border-radius: 20px;
+}
+
+.service-menu p {
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+
+.car-demo {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.car-demo .car-demo-title {
+    color: rgb(56, 56, 56);
+    font-size: 3rem;
+    font-family: 'Albert Sans', sans-serif;
+    margin-left: 8%;
+    width: 100px;
+    text-transform: uppercase;
+}
+
+.car-demo .car-demo-context {
+    color: rgb(63, 63, 63);
+    font-size: 1.2rem;
+    margin-top: 17%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 380px;
+    margin-left: -7%;
+}
+
+.car-demo .car-demo-img {
+    margin-left: 13%;
+}
+
+.info-car {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+}
+
+.info-car .info-car-img {
+    margin-left: -0.6%;
+}
+
+.info-car .info-car-context {
+    width: 400px;
+    margin-left: 8%;
+    margin-top: 6%;
+}
+
+.info-car .info-car-context .car-info-title {
+    font-size: 3rem;
+    font-family: 'Albert Sans', sans-serif;
+    color: rgb(62, 58, 58);
+    text-transform: uppercase;
+}
+
+.info-car .info-car-context .car-info-details {
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(63, 63, 63);
+    margin-top: -4%;
+}
+
+.info-car .info-car-context .car-info-btn,
+.car-fac .car-fac-context .car-info-btn,
+.reason .reason-context .car-info-btn,
+.careers .careers-context .car-info-btn,
+.careers .careers-show .career-1 .car-info-btn {
+    border: 1px solid black;
+    border-right: none;
+    border-radius: 7px;
+    background-color: white;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-top: 4%;
+    padding: 10px 15px;
+}
+
+.info-car .info-car-context .car-info-btn a,
+.car-fac .car-fac-context .car-info-btn a,
+.reason .reason-context .car-info-btn a,
+.careers .careers-context .car-info-btn a, 
+.careers .careers-show .career-1 .car-info-btn a{
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-size: 1.2rem;
+}
+
+.info-car .info-car-context .car-info-btn::after,
+.car-fac .car-fac-context .car-info-btn::after,
+.careers .careers-context .car-info-btn::after, 
+.careers .careers-show .career-1 .car-info-btn::after {
+    position: absolute;
+    content: "⇾";
+    margin-left: 15px;
+    margin-top: -11px;
+    font-size: 2rem;
+    padding: 2px 6px 1px;
+    border: 1px solid black;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.car-fac {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    z-index: 99;
+}
+
+.car-fac .car-fac-context {
+    /* margin-left: 8%;
+    margin-right: 18.2%; */
+    margin: 0 18.2% 0 8%;
+}
+
+.car-fac .car-fac-context .car-fac-title {
+    font-size: 3rem;
+    font-family: 'Albert Sans', sans-serif;
+    color: rgb(62, 58, 58);
+    text-transform: uppercase;
+    margin-top: 40%;
+}
+
+.car-fac .car-fac-context .car-fac-details {
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(63, 63, 63);
+    margin-top: -4%;
+}
+
+.reason {
+    margin-top: 18%;
+}
+
+.reason::before {
+    position: absolute;
+    content: "";
+    background: url('factory-background.jpg') repeat fixed 100%;
+    width: 100%;
+    height: calc(100% + 120px);
+    z-index: -1;
+    margin-left: -10px;
+    margin-top: -10%;
+}
+
+.reason .reason-context {
+    width: 280px;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 8%;
+    padding: 30px 7%;
+}
+
+.reason .reason-context .reason-pretitle {
+    text-transform: uppercase;
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: rgb(199, 193, 193);
+}
+
+.reason .reason-context .reason-title {
+    font-size: 1.5rem;
+    font-family: 'Albert Sans', sans-serif;
+    margin-bottom: 60px;
+    color: rgb(228, 225, 225);
+}
+
+.reason .reason-context .reason-details {
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.reason .reason-context .car-info-btn {
+    background-color: black;
+    border-color: white;
+}
+
+.reason .reason-context .car-info-btn a {
+    color: white;
+}
+
+.reason .reason-context .car-info-btn::after,
+.careers .careers-context .car-info-btn::after,
+.careers .careers-show .career-1 .car-info-btn::after {
+    position: absolute;
+    content: "⇾";
+    margin-left: 15px;
+    margin-top: -11px;
+    font-size: 2rem;
+    padding: 2px 6px 1px;
+    color: white;
+    border: 1px solid white;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.reason .reason-context::before {
+    content: "";
+    position: absolute;
+    border-left: 1px solid rgb(206, 206, 206);
+    height: 450px;
+    display: flex;
+    margin-left: -4%;
+    margin-top: 1%;
+    border-radius: 20px;
+}
+
+.reason .reason-context::after {
+    position: absolute;
+    content: "";
+    height: 100px;
+    border: 2px solid white;
+    margin-left: -13.5%;
+    margin-top: -28.1%;
+    border-radius: 20px;
+}
+
+.num {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12%;
+    width: 70%;
+}
+
+.num .num-context {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.num .num-img {
+    margin-left: -0.8%;
+}
+
+.num .num-context .num-title {
+    font-size: 2rem;
+    font-family: 'Albert Sans', sans-serif;
+    text-transform: capitalize;
+    margin-left: 4%;
+}
+
+.num .num-context .num-sub {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10%;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.num .num-context .num-sub div {
+    margin-bottom: 30%;
+    margin-top: 10%;
+    margin-left: 4%;
+    width: 280px;
+}
+
+.num .num-context .num-sub .num-1 .num-1-p,
+.num .num-context .num-sub .num-2 .num-2-p,
+.num .num-context .num-sub .num-3 .num-3-p,
+.num .num-context .num-sub .num-4 .num-4-p {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: grey;
+    margin-top: 12%;
+}
+
+
+.num .num-context .num-sub .num-1::before,
+.num .num-context .num-sub .num-2::before,
+.num .num-context .num-sub .num-3::before,
+.num .num-context .num-sub .num-4::before {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid grey;
+    width: 99px;
+    margin-top: 46px;
+}
+
+.num .num-context .num-sub .num-1::after,
+.num .num-context .num-sub .num-2::after,
+.num .num-context .num-sub .num-3::after,
+.num .num-context .num-sub .num-4::after {
+    position: absolute;
+    content: "";
+    border-bottom: 3px solid black;
+    width: 20px;
+    margin-top: -5%;
+    margin-left: 0%;
+}
+
+.num .num-context .num-sub .num-2::after {
+    margin-left: 0%;
+    width: 22px;
+}
+
+.industry {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-left: -1.15%;
+    width: calc(100% + 22px);
+}
+
+.industry .industry-context {
+    width: 400px;
+    padding-left: 8%;
+    margin-top: 5%;
+    margin-left: 4%;
+    color: white;
+}
+
+.industry .industry-context .industry-pretitle {
+    font-family: 'Albert Sans', sans-serif; 
+    font-size: 1.2rem;
+    padding-top: 20%;
+    margin-bottom: 8%;
+    text-transform: uppercase;
+}
+
+.industry .industry-context .industry-title {
+    font-size: 3rem;
+    font-family: 'Albert Sans', sans-serif;
+    width: 200px;
+}
+
+.industry .industry-context .industry-details {
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+}
+
+.industry .industry-context::before {
+    position: absolute;
+    content: "";
+    border-left: 2px solid grey;
+    height: 470px;
+    margin-left: -4%;
+    margin-top: 5%;
+    border-radius: 20px;    
+}
+
+.industry .industry-context::after {
+    position: absolute;
+    content: "";
+    border-left: 3px solid white;
+    height: 110px;
+    margin-left: -4%;
+    margin-top: -30%;
+}
+
+.industry .industry-sub {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.industry .industry-sub div {
+    padding: 50px;
+    padding-top: 100px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.industry .industry-sub .industry-1::before {
+    position: absolute;
+    content: "";
+    background-image: url('General_Transport.webp'); 
+    height: 120px;
+    width: 120px;
+    margin-top: -10%;
+    margin-left: 2%;
+    z-index: 1;
+}
+
+.industry .industry-sub .industry-2 {
+    padding-left: 80px;
+}
+
+.industry .industry-sub .industry-2::before {
+    position: absolute;
+    content: "";
+    background-image: url('IDI_Software.webp'); 
+    height: 67px;
+    width: 84px;
+    margin-top: -7%;
+    margin-left: 2%;
+    z-index: 1;
+}
+
+.industry .industry-sub .industry-3::before {
+    position: absolute;
+    content: "";
+    background-image: url('Imogen_Cars.webp'); 
+    height: 80px;
+    width: 87px;
+    margin-top: -8%;
+    margin-left: 3%;
+    z-index: 1;
+}
+
+.industry .industry-sub .industry-4::before {
+    position: absolute;
+    content: "";
+    background-image: url('Tri-Nex\ .webp'); 
+    height: 64px;
+    width: 128px;
+    margin-top: -6.8%;
+    z-index: 1;
+}
+
+.careers {
+    background-color: black;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    margin-left: -1.15%;
+    width: calc(100% + 22px);
+    padding-top: 6%;
+    padding-bottom: 7%;
+}
+
+.careers .careers-context {
+    width: 400px;
+    padding-left: 8%;
+    margin-top: 5%;
+    margin-left: 4%;
+    color: white;
+}
+
+.careers .careers-context .careers-pretitle {
+    font-family: 'Albert Sans', sans-serif; 
+    font-size: 1.2rem;
+    padding-top: 20%;
+    padding-bottom: 4%;
+    text-transform: uppercase;
+}
+
+.careers .careers-context .careers-title {
+    font-size: 2rem;
+    font-family: 'Albert Sans', sans-serif;
+    width: 400px;
+    padding-bottom: 10%;
+}
+
+.careers .careers-context::before {
+    position: absolute;
+    content: "";
+    border-left: 2px solid grey;
+    height: 380px;
+    margin-left: -4%;
+    margin-top: 6%;
+    border-radius: 20px;    
+}
+
+.careers .careers-context::after {
+    position: absolute;
+    content: "";
+    border-left: 3px solid white;
+    height: 160px;
+    margin-left: -12.5%;
+    margin-top: -17.2%;
+}
+
+.careers .careers-show {
+    border: 2px solid whitesmoke;
+    margin: 6% 4% 3% 15%;
+    width: 400px;
+    color: white;
+    border-radius: 20px;
+    padding-left: 3%;
+    padding-bottom: 4%;
+}
+
+.careers .careers-show .career-1 .career-1-title {
+    font-size: 2rem;
+    font-family: 'Albert Sans', sans-serif;
+    width: 400px;
+    padding-bottom: 10%;
+    text-transform: capitalize;
+    padding-bottom: 15%;
+}
+
+.careers .careers-show .career-1 .career-1-area {
+    font-family: 'Albert Sans', sans-serif; 
+    font-size: 1.2rem;
+    padding-bottom: 4%;
+    color: grey;
+}
+
+
+.careers .careers-show .career-1 .career-1-details {
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 60px;
+    padding-bottom: 10%;
+}
+
+.careers .careers-context .car-info-btn::after,
+.careers .careers-show .career-1 .car-info-btn::after {
+   padding-bottom: 0px;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
+
+.last h4 {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-size: 1.8rem;
+    margin-left: 5%;
+}
+
+.last .last-new {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.last .last-new .last-context {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    width: 600px;
+}
+
+.last .last-new .last-context .link a {
+    text-decoration: none;
+    color: black;
+}
+
+.last .last-new .last-context p {
+    padding-bottom: 8%;
+}
+
+.last .last-new .last-context .data {
+    width: 206px;
+    margin-left: 20%;
+}
+
+.last .last-new .sub {
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: auto;
+    padding-left: 5%;
+}
+
+.last .last-new .sub .sub-title {
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-size: 1.4rem;
+    padding-bottom: 5%;
+    margin-top: 1.6%;
+}
+.last .last-new .sub .sub-context {
+    padding-bottom: 5%;
+}
+
+.last .last-new .sub #submail {
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 2px solid black;
+    background-color: wheat;
+}
+
+.last .last-new .sub .car-info-btn {
+    width: 130px;
+    height: 50px;
+    margin-top: -11.3%;
+    margin-left: 51%;
+    border-radius: 8px;
+    background-color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    transition: all 0.3s ease;
+}
+
+.last .last-new .sub .car-info-btn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
